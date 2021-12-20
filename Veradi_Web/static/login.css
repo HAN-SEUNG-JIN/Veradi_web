@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  background-color: gray;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: black;
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+}
+.logininput {
+  text-align: center;
+}
+#login_button {
+  width: 5rem;
+  background-color: black;
+  color: white;
+}

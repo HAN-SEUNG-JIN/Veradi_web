@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: black;
+  border-bottom: 0.1rem solid black;
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  background-color: gray;
+}
+#about_list {
+  font-size: 1rem;
+  font-weight: bold;
+  border-right: 0.1rem solid black;
+  margin-top: 0;
+  padding-top: 1rem;
+}
+#about_desc {
+  margin-left: 2rem;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+@media (max-width: 800px) {
+  #grid {
+    display: block;
+  }
+  #about_list {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    border-right: none;
+  }
+  iframe {
+    width: 90%;
+    height: 20rem;
+    margin-left: 0.5rem;
+  }
+  #about_desc {
+    margin-left: 0.5rem;
+  }
+}
